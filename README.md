@@ -1,73 +1,74 @@
-# 🚀 MLOps & Cloud Deployment Projects (GCP)
+# 🚀 MLOps & Cloud-Native Projects (GCP)
 
-This repository showcases hands-on implementation of end-to-end cloud-based systems, including API development, containerization, deployment on Google Cloud Run, serverless functions, and LLM integration.
+This repository showcases end-to-end cloud-based systems including API development, containerization, deployment on Google Cloud Run, serverless computing, and LLM integration.
 
-## 🔧 Tech Stack
+---
+
+## 🌐 Live Deployments
+
+* Iris Classifier → https://iris-classifier-902487228422.us-central1.run.app
+* Compute Service → https://compute-service-902487228422.us-central1.run.app
+* Env Config Service → https://envconfig-service-902487228422.us-central1.run.app
+* Hash API → https://hash-api-902487228422.us-central1.run.app
+
+---
+
+## 🧠 Projects Overview
+
+### 🔹 Iris Classifier (MLOps Pipeline)
+
+* ML model trained using Scikit-learn
+* Deployed via Docker → Cloud Run
+* REST API with `/predict`, `/health`, `/info`
+
+### 🔹 Compute Service API
+
+* Arithmetic + cryptographic verification
+* Stateless microservice architecture
+
+### 🔹 Environment Config Service
+
+* Runtime configuration using env variables
+* Hash-based config validation
+
+### 🔹 Hash API
+
+* Secure hashing + salted hashing
+* Demonstrates backend validation patterns
+
+### 🔹 Text Processor (Cloud Function)
+
+* Serverless text processing
+* GCP Cloud Functions deployment
+
+### 🔹 Gemini AI Tasks
+
+* Sentiment classification
+* Structured data extraction
+
+---
+
+## ⚙️ Tech Stack
 
 * Python (FastAPI)
 * Docker
-* Google Cloud Run & Cloud Functions
-* Scikit-learn (ML)
-* Gemini API (LLM)
-* REST APIs
+* Google Cloud Run / Cloud Functions
+* Scikit-learn
+* Gemini API
 
 ---
 
-## 📌 Projects
+## 📊 Key Skills Demonstrated
 
-### 1️⃣ Iris Classifier (MLOps)
-
-* Trained DecisionTree model on Iris dataset
-* Deployed via Docker on Cloud Run
-* Exposed `/predict`, `/health`, `/info` endpoints
-
-### 2️⃣ Compute Service API
-
-* Arithmetic operations API with verification hashing
-* Demonstrates stateless compute services
-
-### 3️⃣ Environment Config Service
-
-* Injected runtime environment variables via CLI
-* Exposed config via API with hash validation
-
-### 4️⃣ Hash API
-
-* Secure hashing + salted hashing API
-* Demonstrates backend validation logic
-
-### 5️⃣ Text Processing Cloud Function
-
-* Serverless function for text analysis
-* Deployed using GCP Cloud Functions
-
-### 6️⃣ Gemini API Tasks
-
-* Sentiment classification
-* Structured data extraction using LLMs
-
----
-
-## 🌐 Deployment
-
-All services are deployed using:
-
-* Google Cloud Run (containerized apps)
-* Google Cloud Functions (serverless)
-
----
-
-## 🎯 Key Skills Demonstrated
-
-* End-to-end deployment (build → push → deploy)
-* REST API design
-* MLOps pipeline implementation
+* MLOps pipeline (train → deploy → serve)
 * Cloud-native architecture
-* LLM integration for real-world tasks
+* REST API design
+* Containerization
+* LLM integration
 
 ---
 
-## 📬 Contact
+## 👨‍💻 Author
 
 Hemendra Sharma
-Aspiring Data Scientist | MLOps Enthusiast
+Data Science & MLOps Enthusiast
